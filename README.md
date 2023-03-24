@@ -12,7 +12,6 @@
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 [Mercor Frontend Project] <a name="about-project"></a>
