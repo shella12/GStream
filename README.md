@@ -6,13 +6,10 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
+  - [Setup](#setup)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [❓ FAQ](#faq)
@@ -32,18 +29,21 @@
     <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Key Features <a name="key-features"></a>
 
-- **[Clean Code]**
-- **[SEO friendly]**
-- **[Responsive design]**
-- **[Visual interactions]**
-- **[Information Accessibility]**
+- **Clean Code**
+- **SEO friendly**
+- **Accessibility**
+- **Responsive design**
+- **Visual interactions**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click here to see the [Live Demo](https://elaborate-sprite-1687c2.netlify.app/) of the website 
+Click here to see the [Live Demo]() of the website 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -51,38 +51,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-- Vistual Studio Code
 - Browser (Firefox / Google Chrome)
 - Node.js (v6.11.2+)
-- linters
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone git@github.com:shella12/reactBookStore.git
-```
-
-## Install
-
-```sh
- npm install --save -dev
-```
-
-## Start server
-
-``` npm start ```
-
-## To test the app run following command
-
-``` npm test ```
+First, make sure you have [Node.js](https://nodejs.org/en) installed on your machine
 
 ### Usage
 
-Create a personal book store by adding and removing books.
+Clone this repository:
+
+```sh
+  git clone git@github.com:Mercor-Projects/shella12-MercorFrontendproject.git
+```
+
+Now start the server by running:
+
+``` npm start ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -90,26 +78,25 @@ Create a personal book store by adding and removing books.
 - Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
 - LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/ayesha-arshad-a690a015a/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## ❓ FAQ <a name="faq"></a>
-
-- **[Why use this app?]**
-
-  - [To create a personal book store. Add and remove books in the store and access them anywhere using the website]
-
-- **[Why build this app?]**
-
-  - [Its a good app to learn building with react as a begainner]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
