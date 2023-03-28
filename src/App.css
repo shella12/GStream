@@ -160,6 +160,7 @@ aside svg {
 
 .details img {
   width: fit-content;
+  height: fit-content;
 }
 
 .details h2 {
