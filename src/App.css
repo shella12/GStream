@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 *,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-:root {
-  --pale-white: #EBEBF599;
-  --violet: #8015A7;
-  --light-pink: #e6b1ff45;
-  --black: #1C1B33;
-  --black-two: #2E335A;
-  --shadow-blue: #3b267bb3;
 }
 
 a {
@@ -25,27 +17,28 @@ ul {
   list-style: none;
 }
 
-.App{
+.App {
   padding-bottom: 3rem;
-  background-color: #1C1B33;
+  background-color: #1c1b33;
 }
+
 .main {
   flex-direction: column;
- margin-left: 15rem;
- 
+  margin-left: 15rem;
 }
 
 aside a.active {
-  background: radial-gradient(50% 128.57% at 50% -36.61%, #8015A7 0%, rgba(97, 54, 144, 0) 100%);
+  background: radial-gradient(50% 128.57% at 50% -36.61%, #8015a7 0%, rgba(97, 54, 144, 0) 100%);
   color: #fff;
 }
+
 body {
-  color: var(--pale-white);
+  color: #ebebf599;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-color: #1C1B33;
+  background-color: #1c1b33;
 }
 
 aside {
@@ -55,27 +48,28 @@ aside {
   z-index: 1;
   top: 0;
   left: 0;
-  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+  background: linear-gradient(168.44deg, #2e335a 1.62%, #1c1b33 95.72%);
   overflow-x: hidden;
   padding-top: 20px;
   padding-left: 1rem;
 }
 
 aside::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 .d-flex {
   display: flex;
 }
+
 .header {
- flex-direction: column;
- border: 1px solid ;
-  background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
-  border-image: linear-gradient(260deg, rgba(72, 49, 157, 0)20%, rgba(72, 49, 157, 0.2) 30%,rgba(255,255,255)50%, rgba(72, 49, 157, 0.2) 70%, rgba(72, 49, 157, 0)100%) 1;
+  flex-direction: column;
+  border: 1px solid;
+  background: linear-gradient(180deg, #2b2f53 3.16%, #1d1c34 36.05%);
+  border-image: linear-gradient(260deg, rgba(72, 49, 157, 0) 20%, rgba(72, 49, 157, 0.2) 30%, rgba(255, 255, 255) 50%, rgba(72, 49, 157, 0.2) 70%, rgba(72, 49, 157, 0) 100%) 1;
 }
 
-.top-navbar nav::after{
+.top-navbar nav::after {
   position: absolute;
   content: '';
   top: 2.5rem;
@@ -83,42 +77,42 @@ display: none;
   width: 100%;
   height: 3px;
   border-radius: 50%;
-  background: linear-gradient(270deg, #613690 24%, #8015a7 49%, #ffffff 50%, rgba(128,21,167,0.94) 51%, #613690 76%);
+  background: linear-gradient(270deg, #613690 24%, #8015a7 49%, #fff 50%, rgba(128, 21, 167, 0.94) 51%, #613690 76%);
   filter: blur(2px);
- }
+}
 
 .top-navbar nav {
   position: relative;
   flex-wrap: nowrap;
-  font-size: .9rem;
+  font-size: 0.9rem;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 1.5rem .6rem 1.5rem;
+  padding: 1rem 1.5rem 0.6rem 1.5rem;
 }
 
 .logo {
-gap: 2rem;
-font-size: 1.5rem;
-padding: 1.45rem 0 .5rem 1rem;
-align-items: center;
-color: #fff;
-font-family: Helvetica, sans-serif;
-font-weight: 300;
-margin-top:1.8rem;
-}
-
-.logo svg {
-  font-size: 1rem;
+  gap: 2rem;
+  font-size: 1.5rem;
+  padding: 1.45rem 0 0.5rem 1rem;
+  align-items: center;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  margin-top: 1.8rem;
 }
 
 aside svg {
   font-size: 1.4rem;
 }
 
+.logo svg {
+  font-size: 1rem;
+}
+
 .child-list {
   flex-direction: column;
   width: 100%;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .child-list li a {
@@ -126,46 +120,46 @@ aside svg {
   align-items: center;
   padding: 1rem;
   border: 1px solid;
-  border-image: linear-gradient(135deg, rgba(72, 49, 157, 0)20%, rgba(72, 49, 157, 0.2) 40%,rgba(255,255,255,0.1)60%, rgba(72, 49, 157, 0.2) 70%, rgba(72, 49, 157, 0)100%) 1;
-  border-top: none;  
+  border-image: linear-gradient(135deg, rgba(72, 49, 157, 0) 20%, rgba(72, 49, 157, 0.2) 40%, rgba(255, 255, 255, 0.1) 60%, rgba(72, 49, 157, 0.2) 70%, rgba(72, 49, 157, 0) 100%) 1;
+  border-top: none;
   gap: 1.5rem;
-  }
-  
+}
+
 .card-ul {
   margin: 4rem;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 3%;
-  background-color: #1C1B33;
+  background-color: #1c1b33;
 }
 
 .card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.2), rgba(72, 49, 157, 0.2) 78.75%, rgba(72, 49, 157, 0) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(72, 49, 157, 0.2) 78.75%, rgba(72, 49, 157, 0) 100%);
   border: 2px solid;
   -webkit-clip-path: inset(0 round 1rem 1rem 0 0);
   clip-path: inset(1px round 1rem 1rem 0 0);
-  border-image: linear-gradient(180deg, rgba(255,255,255,0.2)70%, rgba(72, 49, 157, 0.2), rgba(72, 49, 157, 0)) 1;
+  border-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 70%, rgba(72, 49, 157, 0.2), rgba(72, 49, 157, 0)) 1;
   border-bottom: none;
 }
 
-.thumbnail{
+.thumbnail {
   width: 100%;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
 
-.details{
- padding: 1rem;
- gap: 1rem;
+.details {
+  padding: 1rem;
+  gap: 1rem;
 }
-.details div{
-flex-direction: column;
-gap: .4rem;
+
+.details div {
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
 .details img {
   width: fit-content;
-  height: fit-content;
 }
 
 .details h2 {
@@ -174,11 +168,11 @@ gap: .4rem;
 }
 
 .details h3 {
-  font-size: .8rem
+  font-size: 0.8rem;
 }
 
 .details p {
-  font-size: .85rem
+  font-size: 0.85rem;
 }
 
 .parent-list {
@@ -189,12 +183,12 @@ gap: .4rem;
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, rgba(15, 85, 232, 0.1) 0%, rgba(157, 223, 243, 0.1) 100%);
-  border: 1px solid rgba(255,255,255,0.4);
-  padding: .1rem;
-  width:40%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0.1rem;
+  width: 40%;
   align-self: center;
   border-radius: 4rem;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
 
@@ -203,10 +197,11 @@ gap: .4rem;
   border: none;
   outline: none;
 }
+
 .search input::placeholder {
   color: #fff;
-  font-family:  'Roboto', Arial, Helvetica, sans-serif;
-  font-size: .85rem;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
 }
 
 #speaker-icon {
