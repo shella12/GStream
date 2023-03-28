@@ -12,10 +12,20 @@ import Characters from './HomeNav/Characters';
 import Eating from './HomeNav/Eating';
 import Navbar from '../components/Navbar';
 
+import mic from '../assets/Mic.png';
+import search from '../assets/Search.png';
+
 function Home() {
   return (
     <div className="main">
+     <div className="header  d-flex">
+     <form className='search'> 
+        <img src={search} alt="search-icon"  id='search-icon'/>
+        <input type="text" placeholder='Explore'></input>
+        <img src={mic} alt="speak search"  id='speaker-icon'/>
+      </form>
        <Navbar />
+     </div>
       <Routes>
         <Route index element={<All />} />
         <Route path="/Gaming" element={<Gaming />} />
