@@ -72,7 +72,7 @@ function AsideNavbar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/Thrillers" activeclassname="active">
+                <NavLink to="/Downloads" activeclassname="active">
                   <img src={download} alt="download-icon" /> Download
                 </NavLink>
               </li>
