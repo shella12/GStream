@@ -24,7 +24,6 @@
   <ul>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
     <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
