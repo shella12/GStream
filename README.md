@@ -14,10 +14,9 @@
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
 
-# 📖 [Mercor Frontend Project] <a name="about-project"></a>
+# 📖 [GStream] <a name="about-project"></a>
 
-> This is a Mercor Frontend project challenge! were we have to convert this [Figma design](https://www.figma.com/community/file/1218595052516978368) into responsive React code. The most important thing is attention to detail. 
-
+> This is a React frontend project with an interactive and user-friendly interface and quick navigation for streaming videos. The design has been replicated from this [Figma design](https://www.figma.com/community/file/1218595052516978368).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,7 +41,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click here to see the [Live Demo]() of the website 
+Click here to see the [Live Demo](https://deft-macaron-85e421.netlify.app/) of the website 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -62,7 +61,7 @@ First, make sure you have [Node.js](https://nodejs.org/en) installed on your mac
 Clone this repository:
 
 ```sh
-  git clone git@github.com:Mercor-Projects/shella12-MercorFrontendproject.git
+  git clone git@github.com:shella12/Mercor-Challenge.git
 ```
 
 Now start the server by running:
