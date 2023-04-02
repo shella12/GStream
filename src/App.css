@@ -73,7 +73,10 @@ aside::-webkit-scrollbar {
   flex-direction: column;
   border: 1px solid;
   padding-right: 15rem;
-  background: linear-gradient(180deg, #2b2f53 3.16%, #1d1c34 36.05%);
+  border-left: none;
+  border-top: none;
+  background: #1c1b33;
+  background: linear-gradient(168.44deg, #2e335a 1.62%, #1c1b33 95.72%);
   border-image: linear-gradient(260deg, rgba(72, 49, 157, 0) 20%, rgba(72, 49, 157, 0.2) 30%, rgba(255, 255, 255) 50%, rgba(72, 49, 157, 0.2) 70%, rgba(72, 49, 157, 0) 100%) 1;
 }
 
@@ -169,7 +172,7 @@ aside svg {
 
 .details img {
   width: fit-content;
-  height: fit-content;
+  height: max-content;
 }
 
 .details h2 {
@@ -206,6 +209,7 @@ aside svg {
   background-color: transparent;
   border: none;
   outline: none;
+  color: #fff;
 }
 
 .search input::placeholder {
