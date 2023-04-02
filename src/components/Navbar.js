@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <header className='top-navbar d-flex'>
-      <nav className='d-flex'>
+    <header className="top-navbar d-flex">
+      <nav className="d-flex">
         <NavLink to="/" activeclassname="active">
           All
         </NavLink>
@@ -27,16 +27,16 @@ function Navbar() {
           Avatar
         </NavLink>
         <NavLink to="/FilmCriticisma" activeclassname="active">
-        Film criticisma
+          Film criticisma
         </NavLink>
         <NavLink to="/KoreanDramas" activeclassname="active">
-        Korean dramas
+          Korean dramas
         </NavLink>
         <NavLink to="/Characters" activeclassname="active">
-       Characters
+          Characters
         </NavLink>
         <NavLink to="/Eating" activeclassname="active">
-        Eating
+          Eating
         </NavLink>
       </nav>
     </header>
